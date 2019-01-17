@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">Cassette</string>
+  <string name="title_activity_main">MainActivity</string>
+  <string name="button_add_song">Add Song</string>
+  <string name="title_my_songs">My Songs</string>
+  <string name="song_title">Title</string>
+  <string name="song_artist">Artist</string>
+  <string name="song_year">Year</string>
+  <string name="button_save">Save</string>
+  <string name="add_song">Add Song</string>
+  <string name="empty_message">Add a song</string>
+  <string name="error_song_exists">Snap! This song already exists.</string>
+  <string name="error_title_empty">Title can\'t be empty.</string>
+  <string name="error_year_invalid">Year value should be between (1877–2019)</string>
+  <string name="error_artist_invalid">Artist name should have minimum 2 characters.</string>
+  <string name="error_artist_empty">Artist name can\'t be empty.</string>
+  <string name="button_done">Done</string>
+  <string name="text_total">Total %1$d</string>
+</resources>

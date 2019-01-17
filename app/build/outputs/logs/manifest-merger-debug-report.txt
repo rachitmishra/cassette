@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/173f01d24d3d195da99b371ce662cf11/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/rachit/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/f8a19f840ce467db1c02e7a8962b5663/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.1.aar/6a2f76be0e45d713f4ae5f9f6534ce19/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rachit/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ba1dfa832678f25be14f18b471486846/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/5d873bbba3b9b452d2923f65026d2219/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e2f0f72553792ded52a0527b3734e7f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/3c7d78fc0f1093556359ede834c0e824/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/9fe3d4e3b2f1dd6641b65b7daff98433/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/236156782661920decca96bdda44c439/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/aa7d1c676897fe7d79b539aa92936515/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/270797ff56dad6c9b70eb15b602b972c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/ff8e1fa3fa581be45688455f4736e607/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/a21acb21bfddd1af05a7a402238974d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b29f0f9a247aa05f80d9b1261313f37a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ec20b48d625f0944669b825a55c391f2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/eaa0a146edc98412e6de69395c17a839/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/fb83a9654accff222b901a6a6b9b64a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/c85a5e750987942f69f6458bb3ee7a34/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/693d1d65519e44f9f228afc660c57fdc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/41c5137aaae0bdd20fb4b628fbe4aae0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/533bff045d38d04cbd22cf2873ef1382/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/bb49a8a729e1ee237130abe920990eb7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a39b861ead818d1c6172145c1b1219a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/418c95a8688629e3147cc9be3d00b3f6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/750b87c15af17d972c1e0e956d069b59/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/3e5565187d883949ed5d55414c7d465e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/139184012e68f34d01f1756837fb996f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/b68db282242c73cd1d6fd79572a51deb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/47852c855c8a473fa549affa62ca2845/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/01afffaa4e2f0a860fb6fa86938a2d06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/8ec7f4be8adbc9c4826f296c6e356239/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/4de9c7e745de67f59fed6e0e81cb9051/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:3:3-47
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:5:3-23:17
+MERGED from [com.google.android.material:material:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/173f01d24d3d195da99b371ce662cf11/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/173f01d24d3d195da99b371ce662cf11/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rachit/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ba1dfa832678f25be14f18b471486846/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rachit/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ba1dfa832678f25be14f18b471486846/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/41c5137aaae0bdd20fb4b628fbe4aae0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/41c5137aaae0bdd20fb4b628fbe4aae0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/533bff045d38d04cbd22cf2873ef1382/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/533bff045d38d04cbd22cf2873ef1382/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/41c5137aaae0bdd20fb4b628fbe4aae0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:10:5-31
+	android:label
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:8:5-37
+	android:roundIcon
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:9:5-50
+	android:icon
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:7:5-39
+	android:allowBackup
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:6:5-31
+	android:theme
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:11:5-36
+activity#com.raywenderlich.android.cassette.MainActivity
+ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:12:5-22:16
+	android:label
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:14:7-39
+	android:windowSoftInputMode
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:16:7-49
+	android:theme
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:15:7-50
+	android:name
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:13:7-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:17:7-21:23
+action#android.intent.action.MAIN
+ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:18:9-61
+	android:name
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:18:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:20:9-69
+	android:name
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml:20:19-66
+uses-sdk
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/173f01d24d3d195da99b371ce662cf11/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/173f01d24d3d195da99b371ce662cf11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/rachit/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/f8a19f840ce467db1c02e7a8962b5663/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/rachit/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/f8a19f840ce467db1c02e7a8962b5663/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.1.aar/6a2f76be0e45d713f4ae5f9f6534ce19/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-ktx-1.0.1.aar/6a2f76be0e45d713f4ae5f9f6534ce19/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rachit/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ba1dfa832678f25be14f18b471486846/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/rachit/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/ba1dfa832678f25be14f18b471486846/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/5d873bbba3b9b452d2923f65026d2219/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/5d873bbba3b9b452d2923f65026d2219/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e2f0f72553792ded52a0527b3734e7f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/e2f0f72553792ded52a0527b3734e7f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/3c7d78fc0f1093556359ede834c0e824/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/3c7d78fc0f1093556359ede834c0e824/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/9fe3d4e3b2f1dd6641b65b7daff98433/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/9fe3d4e3b2f1dd6641b65b7daff98433/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/236156782661920decca96bdda44c439/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/236156782661920decca96bdda44c439/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/aa7d1c676897fe7d79b539aa92936515/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/aa7d1c676897fe7d79b539aa92936515/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/270797ff56dad6c9b70eb15b602b972c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/270797ff56dad6c9b70eb15b602b972c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/ff8e1fa3fa581be45688455f4736e607/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/ff8e1fa3fa581be45688455f4736e607/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/a21acb21bfddd1af05a7a402238974d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/a21acb21bfddd1af05a7a402238974d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b29f0f9a247aa05f80d9b1261313f37a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/b29f0f9a247aa05f80d9b1261313f37a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ec20b48d625f0944669b825a55c391f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ec20b48d625f0944669b825a55c391f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/eaa0a146edc98412e6de69395c17a839/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/eaa0a146edc98412e6de69395c17a839/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/fb83a9654accff222b901a6a6b9b64a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/fb83a9654accff222b901a6a6b9b64a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/c85a5e750987942f69f6458bb3ee7a34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/c85a5e750987942f69f6458bb3ee7a34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/693d1d65519e44f9f228afc660c57fdc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/693d1d65519e44f9f228afc660c57fdc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/41c5137aaae0bdd20fb4b628fbe4aae0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/41c5137aaae0bdd20fb4b628fbe4aae0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/533bff045d38d04cbd22cf2873ef1382/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/533bff045d38d04cbd22cf2873ef1382/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/bb49a8a729e1ee237130abe920990eb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/bb49a8a729e1ee237130abe920990eb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a39b861ead818d1c6172145c1b1219a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a39b861ead818d1c6172145c1b1219a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/418c95a8688629e3147cc9be3d00b3f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/418c95a8688629e3147cc9be3d00b3f6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/750b87c15af17d972c1e0e956d069b59/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/750b87c15af17d972c1e0e956d069b59/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/3e5565187d883949ed5d55414c7d465e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/3e5565187d883949ed5d55414c7d465e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/139184012e68f34d01f1756837fb996f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/139184012e68f34d01f1756837fb996f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/b68db282242c73cd1d6fd79572a51deb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/b68db282242c73cd1d6fd79572a51deb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/47852c855c8a473fa549affa62ca2845/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/47852c855c8a473fa549affa62ca2845/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/01afffaa4e2f0a860fb6fa86938a2d06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/01afffaa4e2f0a860fb6fa86938a2d06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/8ec7f4be8adbc9c4826f296c6e356239/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/8ec7f4be8adbc9c4826f296c6e356239/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/4de9c7e745de67f59fed6e0e81cb9051/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rachit/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/4de9c7e745de67f59fed6e0e81cb9051/AndroidManifest.xml:20:5-44
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachit/source/Cassette/app/src/main/AndroidManifest.xml
