@@ -14,7 +14,7 @@
     android:id="@+id/text_view_label"
     style="@style/TextAppearance.AppCompat.Display1"
     android:textColor="@color/colorPrimary"
-    android:layout_width="0dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/activity_margin_horizontal"
     android:text="@string/title_my_songs"
@@ -23,6 +23,22 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintHorizontal_chainStyle="spread_inside"
     app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+    android:id="@+id/text_view_year_range"
+    style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+    android:textColor="@color/colorPrimary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:paddingEnd="0dp"
+    app:layout_constraintHorizontal_bias="0"
+    android:paddingStart="@dimen/text_spacing_horizontal"
+    app:layout_constraintBottom_toBottomOf="@+id/text_view_label"
+    app:layout_constraintEnd_toStartOf="@+id/text_view_total"
+    app:layout_constraintStart_toEndOf="@+id/text_view_label"
+    app:layout_constraintTop_toTopOf="@+id/text_view_label"
+    tools:text="1999-2014"/>
 
   <TextView
     android:id="@+id/text_view_total"

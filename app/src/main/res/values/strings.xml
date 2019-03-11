@@ -16,4 +16,5 @@
   <string name="error_artist_empty">Artist name can\'t be empty.</string>
   <string name="button_done">Done</string>
   <string name="text_total">Total %1$d</string>
+  <string name="text_range">(%1$s - %2$s)</string>
 </resources>
