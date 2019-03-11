@@ -60,21 +60,23 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
   }
 
   private fun findPlaylistYearRange(songs: List<String>) {
-    var endYear = 0
-    var startYear = 0
+    var startYear = songs[0].split(",")[2].trim().toInt()
+    var endYear = startYear
 
-    songs.forEach { song ->
-      startYear = song.split(",")[2].trim().toInt()
-      if (startYear > endYear) {
-        endYear = startYear
-      }
-
-      if (endYear == startYear) {
-        endYear = 0
+    val findStartEndYear = {
+      songs.forEach { song ->
+        val songYear = song.split(",")[2].trim().toInt()
+        if (songYear > endYear) {
+          endYear = songYear
+        } else if (songYear < startYear) {
+          startYear = songYear
+        }
       }
     }
 
-    val endYearString = if (endYear == 0) "" else endYear.toString()
+    findStartEndYear()
+
+    val endYearString = if (endYear == startYear) "" else endYear.toString()
 
     text_view_year_range.text = getString(R.string.text_range, startYear.toString(), endYearString)
   }
