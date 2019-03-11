@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.dialog_add_song.*
 
 class AddSongFragment : BottomSheetDialogFragment() {
@@ -44,35 +44,37 @@ class AddSongFragment : BottomSheetDialogFragment() {
 
   private fun handleSongSaveClick() {
     button_save.setOnClickListener {
-      saveSong()
-      dismiss()
+      if (saveSong()) {
+        dismiss()
+      }
     }
   }
 
-  private fun saveSong() {
+  private fun saveSong(): Boolean {
     val title = edit_text_title.text?.toString()
     val artist = edit_text_artist.text?.toString()
     val year = edit_text_year.text?.toString()
 
     if (title.isNullOrEmpty()) {
       showError(R.string.error_title_empty)
-      return
+      return false
     }
 
     if (!isValidArtist(artist)) {
-      return
+      return false
     }
 
     if (!isValidYear(year)) {
       showError(R.string.error_year_invalid)
-      return
+      return false
     }
 
     songStore.saveSong("$title, $artist, $year", onSongAdded::onSongAdded, this::showError)
+    return true
   }
 
   private fun showError(message: Int) {
-    Snackbar.make(view!!, message, Snackbar.LENGTH_SHORT).show()
+    Toast.makeText(activity, message, Toast.LENGTH_LONG).show()
   }
 
   private fun isValidArtist(artist: String?): Boolean {
