@@ -14,10 +14,6 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
     songStore = SongStore.from(applicationContext)
   }
 
-  private fun showAddSongDialog() {
-    AddSongFragment.show(supportFragmentManager)
-  }
-
   override fun onSongAdded() {
   }
 }
