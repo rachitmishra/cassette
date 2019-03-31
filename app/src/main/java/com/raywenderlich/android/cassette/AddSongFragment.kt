@@ -41,17 +41,17 @@ class AddSongFragment : BottomSheetDialogFragment() {
     handleSongSaveClick()
   }
 
-  private fun handleSongSaveClick() {
-    button_save.setOnClickListener {
-    }
+  override fun onAttach(context: Context?) {
+    super.onAttach(context)
+    onSongAdded = context as AddSongFragment.OnSongAdded
   }
 
   private fun showError(message: Int) {
     Toast.makeText(activity, message, Toast.LENGTH_SHORT).show()
   }
 
-  override fun onAttach(context: Context?) {
-    super.onAttach(context)
-    onSongAdded = context as AddSongFragment.OnSongAdded
+  private fun handleSongSaveClick() {
+    button_save.setOnClickListener {
+    }
   }
 }
