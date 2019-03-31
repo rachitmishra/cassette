@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import kotlinx.android.synthetic.main.dialog_add_song.*
 
 class AddSongFragment : BottomSheetDialogFragment() {
 
@@ -37,6 +38,12 @@ class AddSongFragment : BottomSheetDialogFragment() {
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
+    handleSongSaveClick()
+  }
+
+  private fun handleSongSaveClick() {
+    button_save.setOnClickListener {
+    }
   }
 
   private fun showError(message: Int) {
