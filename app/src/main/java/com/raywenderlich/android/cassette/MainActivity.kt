@@ -60,6 +60,10 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
   }
 
   private fun findPlaylistYearRange(songs: List<String>) {
+    if (songs.isEmpty()) {
+      return
+    }
+
     var startYear = songs[0].split(",")[2].trim().toInt()
     var endYear = startYear
 
