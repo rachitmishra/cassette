@@ -13,18 +13,6 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
 
   private lateinit var store: SongStore
 
-  val toggleEmptyView = { show: Boolean ->
-    group_empty.visibility = if (show) View.VISIBLE else View.GONE
-    button_add_song.visibility = if (show) View.GONE else View.VISIBLE
-  }
-
-  val underlineTitle: (String) -> SpannableString = {
-    val songTitle = it.split(",")[0]
-    SpannableString(it).apply {
-      setSpan(UnderlineSpan(), 0, songTitle.length, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
-    }
-  }
-
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
@@ -33,24 +21,36 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
     showAllSongs(store.allSongs.toList())
   }
 
+  private fun showAddSongDialog() {
+    AddSongFragment.show(supportFragmentManager)
+  }
+
   private fun setClickListeners() {
-    // A simple lambda call
-    button_add_song.setOnClickListener {
-      showAddSongDialog()
-    }
 
     button_add_song_empty.setOnClickListener {
       showAddSongDialog()
     }
+
+    button_add_song.setOnClickListener {
+      showAddSongDialog()
+    }
   }
 
-  private fun showAddSongDialog() {
-    AddSongFragment.show(supportFragmentManager)
+  val toggleEmptyView = { show: Boolean ->
+    group_empty.visibility = if (show) View.VISIBLE else View.GONE
+    button_add_song.visibility = if (show) View.GONE else View.VISIBLE
   }
 
   private fun showAllSongs(songs: List<String>) {
 
     val spans = mutableListOf<Spanned>()
+
+     val underlineTitle: (String) -> SpannableString = {
+      val songTitle = it.split(",")[0]
+      SpannableString(it).apply {
+        setSpan(UnderlineSpan(), 0, songTitle.length, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
+      }
+    }
 
     for (song in songs) {
       spans.add(underlineTitle(song))
