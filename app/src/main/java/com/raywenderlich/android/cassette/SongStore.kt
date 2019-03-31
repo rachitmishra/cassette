@@ -37,7 +37,12 @@ class SongStore private constructor(context: Context) {
    *
    */
   private fun getStoredSongs(): MutableSet<String> {
-    return preferences.getStringSet(STORE_KEY, mutableSetOf<String>()) ?: mutableSetOf()
+    val storedSet = preferences.getStringSet(STORE_KEY, mutableSetOf<String>()) ?: mutableSetOf()
+    val newSet = mutableSetOf<String>()
+    if (storedSet.isNotEmpty()) {
+      newSet.addAll(storedSet)
+    }
+    return newSet
   }
 
   /**
