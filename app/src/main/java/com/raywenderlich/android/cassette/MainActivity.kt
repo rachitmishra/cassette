@@ -18,6 +18,13 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
     button_add_song.visibility = if (show) View.GONE else View.VISIBLE
   }
 
+  val underlineTitle: (String) -> SpannableString = {
+    val songTitle = it.split(",")[0]
+    SpannableString(it).apply {
+      setSpan(UnderlineSpan(), 0, songTitle.length, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
+    }
+  }
+
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
@@ -46,9 +53,7 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
     val spans = mutableListOf<Spanned>()
 
     for (song in songs) {
-      spans.add(prettifySong(song) {
-        applyUnderlineToTitle().invoke(it)
-      })
+      spans.add(underlineTitle(song))
       spans.add(SpannedString("\n\n"))
     }
 
@@ -92,16 +97,5 @@ class MainActivity : AppCompatActivity(), AddSongFragment.OnSongAdded {
   override fun onSongAdded() {
     showAllSongs(store.allSongs.toList())
     toggleEmptyView(false)
-  }
-
-  private fun prettifySong(song: String, prettifier: (String) -> SpannableString) = prettifier(song)
-
-  private fun applyUnderlineToTitle(): (String) -> SpannableString {
-    return { song ->
-      val songTitle = song.split(",")[0]
-      SpannableString(song).apply {
-        setSpan(UnderlineSpan(), 0, songTitle.length, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)
-      }
-    }
   }
 }
