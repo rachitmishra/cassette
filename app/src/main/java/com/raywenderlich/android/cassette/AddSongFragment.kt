@@ -96,7 +96,7 @@ class AddSongFragment : BottomSheetDialogFragment() {
   }
 
   private fun isValidYear(year: String?): Boolean {
-    val yearValidator: (String?) -> Boolean = { it != null && it.toInt() in 1877..2019 }
+    val yearValidator: (String?) -> Boolean = { !it.isNullOrEmpty() && it.toInt() in 1877..2019 }
 
     return isValid(year, yearValidator)
   }
