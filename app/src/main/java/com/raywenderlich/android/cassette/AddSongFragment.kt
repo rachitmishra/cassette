@@ -41,6 +41,11 @@ class AddSongFragment : BottomSheetDialogFragment() {
     handleSongSaveClick()
   }
 
+  override fun onAttach(context: Context?) {
+    super.onAttach(context)
+    onSongAdded = context as AddSongFragment.OnSongAdded
+  }
+
   private fun showError(message: Int) {
     Toast.makeText(activity, message, Toast.LENGTH_LONG).show()
   }
@@ -101,10 +106,5 @@ class AddSongFragment : BottomSheetDialogFragment() {
     val yearValidator: (String?) -> Boolean = { !it.isNullOrEmpty() && it.toInt() in 1877..2019 }
 
     return isValid(year, yearValidator)
-  }
-
-  override fun onAttach(context: Context?) {
-    super.onAttach(context)
-    onSongAdded = context as AddSongFragment.OnSongAdded
   }
 }
