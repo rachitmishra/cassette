@@ -41,6 +41,10 @@ class AddSongFragment : BottomSheetDialogFragment() {
     handleSongSaveClick()
   }
 
+  private fun showError(message: Int) {
+    Toast.makeText(activity, message, Toast.LENGTH_LONG).show()
+  }
+
   private fun handleSongSaveClick() {
     button_save.setOnClickListener {
       if (saveSong()) {
@@ -72,9 +76,8 @@ class AddSongFragment : BottomSheetDialogFragment() {
     return true
   }
 
-  private fun showError(message: Int) {
-    Toast.makeText(activity, message, Toast.LENGTH_LONG).show()
-  }
+  private fun isValid(value: String?, validator: (String) -> Boolean): Boolean =
+      value != null && validator(value)
 
   private fun isValidArtist(artist: String?): Boolean {
 
@@ -99,9 +102,6 @@ class AddSongFragment : BottomSheetDialogFragment() {
 
     return isValid(year, yearValidator)
   }
-
-  private fun isValid(value: String?, validator: (String) -> Boolean): Boolean =
-      value != null && validator(value)
 
   override fun onAttach(context: Context?) {
     super.onAttach(context)
