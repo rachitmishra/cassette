@@ -81,13 +81,10 @@ class AddSongFragment : BottomSheetDialogFragment() {
     return true
   }
 
-  private fun isValid(value: String?, validator: (String) -> Boolean): Boolean =
-      value != null && validator(value)
-
   private fun isValidArtist(artist: String?): Boolean {
 
     // Anonymous function
-    return isValid(artist, fun(value: String?): Boolean {
+    val artistValidator = fun(value: String?): Boolean {
       if (value.isNullOrEmpty()) {
         showError(R.string.error_artist_empty)
         return false
@@ -99,12 +96,14 @@ class AddSongFragment : BottomSheetDialogFragment() {
       }
 
       return true
-    })
+    }
+
+    return artistValidator(artist)
   }
 
   private fun isValidYear(year: String?): Boolean {
     val yearValidator: (String?) -> Boolean = { !it.isNullOrEmpty() && it.toInt() in 1877..2019 }
 
-    return isValid(year, yearValidator)
+    return yearValidator(year)
   }
 }
