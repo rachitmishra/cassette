@@ -41,7 +41,6 @@ class AddSongFragment : BottomSheetDialogFragment() {
     handleSongSaveClick()
   }
 
-
   private fun handleSongSaveClick() {
     button_save.setOnClickListener {
       if (saveSong()) {
